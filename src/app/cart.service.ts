@@ -9,7 +9,7 @@ export class CartService {
   /*propriedade para armazenar a matriz dos produtos atuais no carrinho.*/
   items: Product[] = [];
 
-  /* método anexa um produto a uma matriz deitems */
+  /* método anexa um produto a uma matriz de items */
   addToCart(product: Product) {
     this.items.push(product);
   }
